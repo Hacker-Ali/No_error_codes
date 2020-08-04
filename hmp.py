@@ -1,6 +1,6 @@
 def sleep_end():
 	import time
-	timpe.sleep(5)
+	time.sleep(5)
 
 def intro():
 	print("\nWelcome to the Heath Management Program ! \nDeveloved by HAMMAD ALI ")
@@ -76,7 +76,7 @@ def rc():
 	run_choice = remove_spaces(run_choice)
 	if run_choice == "n" :
 		print(f"\nEnjoyed working with you {clientname.upper()}\n Bye!")
-		time.sleep_end()
+		sleep_end()
 		xyz == False
 	elif run_choice == "y" :
 		xyz == True
